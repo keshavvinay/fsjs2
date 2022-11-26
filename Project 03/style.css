@@ -1,0 +1,123 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+body{
+    margin: 0;
+}
+.container{
+    margin: 70px 144px;
+}
+.container .navbar-container{
+    display: flex;
+    align-items: center;
+}
+.container .navbar-container > div:nth-child(2){
+    flex-grow:1;
+}
+
+.container .navbar-container div ul.list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 55px;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Orbitron;
+
+}
+.container .navbar-container .button-group{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.container .navbar-container .button-group .nav-button{
+    padding: 3px 39px;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #3F3F40;
+    border: 3px solid #000000;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 300;
+}
+section[aria-label="banner"] .hero-container{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+.hero-container .square{
+    position: absolute;
+    top: 333px;
+    left: 207px;
+    z-index: -1;
+}
+.hero-container .globe{
+    position: relative;
+    top: -41px;
+    left: 169px;
+}
+.hero-container > div:not([class="hero-container-right"]){
+    float: left;
+    margin-right: 133px;
+}
+.hero-container > span:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    margin-left: 45px;
+    bottom: 45px;
+}
+.hero-container > span:nth-child(2) img{
+    width: 48px;
+}
+.hero-container > span:nth-child(3){
+    float: right;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-container-right > h1{
+    font-family: Orbitron;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.hero-container-right > p{
+    font-family: poppins;
+    color: #565657;
+    padding: 57px;
+    margin: 0;
+    text-align: center;
+    margin: 0 0 43px;
+}
+.hero-container-right > div button{
+    font-family: Orbitron;
+    font-weight: 400;
+    font-size: 21px;
+    border-radius: 9px;
+}
+.hero-container-right > div button.button-email{
+    padding: 2px 27px;
+    margin-right: 18px;
+    color: #545554;
+    background-color: #fff;
+    border: 2px solid #545554;
+}
+.hero-container-right > div button.button-join{
+    color: #fff;
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+.hero-container-right > div h4.contact-heading{
+    text-align: center;
+    font-family: poppins;
+    font-size: 21px;
+    color: #545554;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.hero-container-right > div .icons{
+    display: flex;
+    gap: 20px;
+}

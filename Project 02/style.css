@@ -1,0 +1,85 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Montserrat;
+}
+.container{
+    height: 100%;
+}
+nav.navbar{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    padding: 20px;
+}
+nav.navbar div:first-child > img{
+    width: 95px;
+}
+.grow-list{
+    flex: 4;
+}
+nav.navbar div:first-child,nav.navbar div:last-child {
+    flex: 1;
+    text-align: center;
+}
+
+.line{
+    border-left: 1px solid white;
+    padding-top: 50px;
+}
+
+.grow-list ul{
+    list-style: none;
+    display: flex;
+    color: #ffffff;
+    gap: 50px;
+}
+
+.button-small{
+    color: #ffffff;
+    background-color: #AA27BE;
+    border: none;
+    padding: 9px 27px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container section[aria-label="hero"]{
+    background-image: url(./assets/bg.png);
+    background-size: 100% 100%;
+    height: 92%;
+}
+
+.container section[aria-label="hero"] .hero{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: #ffffff;
+    top: 183px;
+    position: relative;
+}
+.container section[aria-label="hero"] .hero .hero-heading{
+    margin: 0;
+    font-size: 60px;
+    width: 50%;
+    text-align: center;
+}
+.container section[aria-label="hero"] .hero .hero-description{
+    margin-bottom: 33px;
+    margin-top: 10px;
+    font-size: 21px;
+}
+.container section[aria-label="hero"] .hero .button-large{
+    color: #ffffff;
+    background-color: #AA27BE;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: 600;
+}
