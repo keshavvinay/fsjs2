@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VS code clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        
+    <header class="bg-[#2c2c32] h-[50px] position-fixed">
+        <div class="flex mx-[135px] w-1170 items-center h-full px-[15px]">
+            <div class="flex">
+                <img class="w-[24px] h-[24px] m-auto" src="./assets/logo.png" alt="logo"/>
+                <h1 class="text-lg text-white p-[15px]">Visual Studio Code</h1>
+            </div>
+            <div>
+                <nav>
+                    <ul class="flex text-white gap-[24px] ml-[12px]">
+                        <li class="cursor-pointer opacity-60 hover:opacity-100">Docs</li>
+                        <li class="cursor-pointer opacity-60 hover:opacity-100">Updates</li>
+                        <li class="cursor-pointer opacity-60 hover:opacity-100">Blog</li>
+                        <li class="cursor-pointer opacity-60 hover:opacity-100">API</li>
+                        <li class="cursor-pointer opacity-60 hover:opacity-100">Extensions</li>
+                        <li class="cursor-pointer opacity-60 hover:opacity-100">FAQ</li>
+                        <li class="cursor-pointer opacity-60 hover:opacity-100">Learn</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="h-full flex-auto flex justify-end">
+                <div class="relative h-full">
+                    <input type="text" placeholder="Search Docs" class="bg-[rgba(255,255,255,.08)] outline-none text-white h-full py-[6px] pr-[15px] pl-[40px] w-[183px]">
+                    <img class="w-[16px] absolute top-[18px] left-[12px]" src="./assets/search-icon.svg" alt="search icon">
+                </div>
+                <button class="h-full bg-[#0066b8] text-white relative">
+                    <img class="h-full w-[16px] absolute top-0 left-[15px]" src="./assets/download-icon.svg" alt="download-icon">
+                    <span class="pl-[40px] pr-[20px]">Download</span>
+                </button>
+            </div>
+        </div>
+
     </header>
     <main></main>
     <footer></footer>
