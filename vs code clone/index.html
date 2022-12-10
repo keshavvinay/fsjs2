@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <header class="bg-[#2c2c32] h-[50px] position-fixed">
-        <div class="flex mx-[135px] w-1170 items-center h-full px-[15px]">
+    <header class="bg-[#2c2c32] h-[50px] fixed w-full">
+        <div class="flex mx-[135px] items-center h-full px-[15px]">
             <div class="flex">
-                <img class="w-[24px] h-[24px] m-auto" src="./assets/logo.png" alt="logo"/>
+                <img class="w-[24px] h-[24px] m-auto" src="./assets/logo.png" alt="logo" />
                 <h1 class="text-lg text-white p-[15px]">Visual Studio Code</h1>
             </div>
             <div>
@@ -29,19 +31,183 @@
             </div>
             <div class="h-full flex-auto flex justify-end">
                 <div class="relative h-full">
-                    <input type="text" placeholder="Search Docs" class="bg-[rgba(255,255,255,.08)] outline-none text-white h-full py-[6px] pr-[15px] pl-[40px] w-[183px]">
-                    <img class="w-[16px] absolute top-[18px] left-[12px]" src="./assets/search-icon.svg" alt="search icon">
+                    <input type="text" placeholder="Search Docs"
+                        class="bg-[rgba(255,255,255,.08)] outline-none text-white h-full py-[6px] pr-[15px] pl-[40px] w-[183px]">
+                    <img class="w-[16px] absolute top-[18px] left-[12px]" src="./assets/search-icon.svg"
+                        alt="search icon">
                 </div>
                 <button class="h-full bg-[#0066b8] text-white relative">
-                    <img class="h-full w-[16px] absolute top-0 left-[15px]" src="./assets/download-icon.svg" alt="download-icon">
+                    <img class="h-full w-[16px] absolute top-0 left-[15px]" src="./assets/download-icon.svg"
+                        alt="download-icon">
                     <span class="pl-[40px] pr-[20px]">Download</span>
                 </button>
             </div>
         </div>
 
     </header>
-    <main></main>
+    <main class="pt-[50px]">
+        <div class="banner text-white text-center bg-[#25252b] py-[11px]">
+            <p><a class="text-[#0098ff] hover:underline" href="https://code.visualstudio.com/updates/v1_74"
+                    target="_blank">Version 1.74</a> is now available! Read about the new features and fixes from
+                November.</p>
+        </div>
+        <div class="bg-[#2c2c32]">
+            <section class="section-1 mx-[135px] px-[15px] w-[1170px] flex py-[30px]">
+                <div class="section-1-left text-white w-[33%] flex flex-col items-center">
+                    <h1 class="text-5xl mt-12 mb-2.5 text-center">
+                        Code editing.
+                        <br />
+                        <strong>Redefined.</strong>
+                    </h1>
+                    <p class="text-[rgba(255,255,255,.6)]">Free. Built on open source. Runs everywhere.</p>
+                    <div class="h-16 mt-6 flex w-[74%]">
+                        <button class="flex flex-col h-full bg-[#0066b8] justify-center w-full items-center">
+                            Download Mac Universal
+                            <small>Stable Build</small>
+                        </button>
+                        <button
+                            class="ml-[2px] h-full w-[43px] bg-[url('./assets/chevronDown.svg')] bg-no-repeat bg-[length:16px_16px] bg-[50%] bg-[#0066b8]"></button>
+                    </div>
+                    <p class="mt-4 p-2">
+                        <a class="text-[#0098ff] hover:underline" href="https://vscode.dev/" target="_blank"
+                            title="For quick code edits locally or remotely on GitHub and Azure Repos.">Web</a>,
+                        <a class="text-[#0098ff] hover:underline" href="https://code.visualstudio.com/insiders/">Insiders edition</a>
+                        , or
+                        <a class="text-[#0098ff] hover:underline" href="#alt-downloads">other platforms</a>
+                    </p>
+                    <p class="mt-2 px-2 py-1 text-center">
+                        By using VS Code, you agree to its
+                        <br />
+                        <a class="text-[#0098ff]" href="#home-link">license and privacy statement.</a>
+                    </p>
+                </div>
+                <div class="section-1-right w-[66%]">
+                    <img src="./assets/home-screenshot-mac-lg-2x.png" alt="screenshot">
+                </div>
+
+            </section>
+        </div>
+
+        <section class="section-2">
+            <div class="w-[1170px] m-auto">
+                <ul class="flex">
+                    <li class="flex-1 text-center hover:bg-[#e3e3e3]"><a href="#meet-intellisense"
+                            class="text-[#444] text-xl hover:text-black block py-5"><img class="m-auto mb-[10px]"
+                                src="./assets/intellisense.svg" alt="intellisense">Intellisense</a></li>
+                    <li class="flex-1 text-center hover:bg-[#e3e3e3]"><a href="#powerful-debugging"
+                            class="text-[#444] text-xl hover:text-black block py-5"><img class="m-auto mb-[10px]"
+                                src="./assets/run-and-debug.svg" alt="run-and-debug">Run and Debug</a></li>
+                    <li class="flex-1 text-center hover:bg-[#e3e3e3]"><a href="#built-in-git"
+                            class="text-[#444] text-xl hover:text-black block py-5"><img class="m-auto mb-[10px]"
+                                src="./assets/built-in-git.svg" alt="built-in-git">Built-in Git</a></li>
+                    <li class="flex-1 text-center hover:bg-[#e3e3e3]"><a href="#hundreds-of-extensions"
+                            class="text-[#444] text-xl hover:text-black block py-5"><img class="m-auto mb-[10px]"
+                                src="./assets/extensions.svg" alt="extensions">Extensions</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="w-[1170px] m-auto flex py-16 justify-between" id="meet-intellisense">
+                <div class="left w-1/3">
+                    <img src="./assets/home-intellisense.svg" alt="intellisense">
+                </div>
+                <div class="right pl-24 w-7/12 text-[#444]">
+                    <h2 class="mb-9 text-3xl font-extralight">Meet IntelliSense.</h2>
+                    <p class="text-lg leading-10">Go beyond syntax highlighting and autocomplete with IntelliSense,
+                        which provides smart completions based on variable types, function definitions, and imported
+                        modules.</p>
+                </div>
+            </div>
+
+            <div class="bg-[#f5f5f5]" id="powerful-debugging">
+                <div class="w-[1170px] m-auto flex py-16 justify-between">
+                    <div class="left pr-24 w-7/12 text-[#444]">
+                        <h2 class="mb-9 text-3xl font-extralight">Print statement debugging is a thing of the past.</h2>
+                        <p class="text-lg leading-10">Debug code right from the editor. Launch or attach to your running
+                            apps and debug with break points, call stacks, and an interactive console.</p>
+                    </div>
+                    <div class="right w-1/3">
+                        <img src="./assets/home-debug.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[1170px] m-auto flex py-16 justify-between" id="built-in-git">
+                <div class="left w-1/3">
+                    <img src="./assets/home-git.svg" alt="intellisense">
+                </div>
+                <div class="right pl-24 w-7/12 text-[#444]">
+                    <h2 class="mb-9 text-3xl font-extralight">Git commands built-in.</h2>
+                    <p class="text-lg leading-10">Working with Git and other SCM providers has never been easier. Review
+                        diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM
+                        service.</p>
+                </div>
+            </div>
+
+            <div class="bg-[#f5f5f5]" id="hundreds-of-extensions">
+                <div class="w-[1170px] m-auto flex py-16 justify-between">
+                    <div class="left pr-24 w-7/12 text-[#444]">
+                        <h2 class="mb-9 text-3xl font-extralight">Extensible and customizable.</h2>
+                        <p class="text-lg leading-10">Want even more features? Install extensions to add new languages,
+                            themes, debuggers, and to connect to additional services. Extensions run in separate
+                            processes, ensuring they won't slow down your editor.
+                            <a class="text-[#0071bc] hover:underline"
+                                href="https://code.visualstudio.com/docs/editor/extension-marketplace">Learn more about
+                                extensions.</a>
+                        </p>
+                    </div>
+                    <div class="right w-1/3">
+                        <img src="./assets/Hundreds-of-Extensions.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[1170px] m-auto flex py-16 justify-between" id="built-in-git">
+                <div class="left w-1/3">
+                    <img src="./assets/home-azure.svg" alt="intellisense">
+                </div>
+                <div class="right pl-24 w-7/12 text-[#444]">
+                    <h2 class="mb-9 text-3xl font-extralight">Deploy with confidence and ease</h2>
+                    <p class="text-lg leading-10">With
+                        <a class="text-[#0071bc] hover:underline" href="https://azure.microsoft.com">Microsoft Azure</a>
+                        you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and
+                        query relational and document based data, and scale with serverless computing, all with ease,
+                        <a class="text-[#0071bc] hover:underline"
+                            href="https://code.visualstudio.com/docs/azure/extensions">all from within VS Code</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-5">
+            <div class="bg-[#f5f5f5]">
+                <div class="w-[1170px] m-auto flex flex-col py-16 justify-between">
+                    <h2 class="mb-9 text-3xl text-center font-extralight">
+                        VS Code for
+                    </h2>
+                    <ul class="grid grid-cols-6 text-lg text-[#444] m-auto">
+                        <li class="px-5 h-10 mb-[10px]"><img class="float-left text-lg w-[30px]" src="./assets/languages/javascript.svg" alt="JavaScript">JavaScript</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/python.svg" alt="Python">Python</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/java.svg" alt="Java">Java</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/markdown.svg" alt="Markdown">Markdown</li>
+                        <li class="px-5"><img class="float-left text-lg" src="./assets/languages/typescript.svg" alt="TypeScript">TypeScript</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/cpp.svg" alt="C/C++">C/C++</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/json.svg" alt="JSON">JSON</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/powershell.svg" alt="Powershell">Powershell</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/html.svg" alt="HTML/CSS">HTML/CSS</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/csharp.svg" alt="C#">C#</li>
+                        <li class="px-5 h-10 mb-[10px]"><img class="float-left text-lg w-[30px]" src="./assets/languages/php.svg" alt="PHP">PHP</li>
+                        <li class="px-5"><img class="float-left text-lg w-[30px]" src="./assets/languages/yaml.svg" alt="YAML">YAML</li>
+                    </ul>
+                    <p class="text-center"><a class="text-[#0071bc] hover:underline" href="">and many more languages on the Marketplace...</a></p>
+                    <div class="text-center">
+                        <button class="bg-[#0066b8] text-white my-5 px-9 py-4">Get Started Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
-    
+
 </body>
+
 </html>
