@@ -2,11 +2,11 @@
 
 ## Html and Css Projects
 
-### [Project 1](Project%2001)
+### [Project 1](html-css-assignments/project-01)
 
-### [Project 2](Project%2002)
+### [Project 2](html-css-assignments/project-02)
 
-### [Project 3](Project%2003)
+### [Project 3](html-css-assignments/project-03)
 ---
 ## Clone Projects 
 
