@@ -1,29 +1,13 @@
-## Full Stack JavaScript 2.0
+# Full Stack JavaScript 2.0
 
-## Project 1
+## Html and Css Projects
 
-### Output
+### [Project 1](Project%2001)
 
-![Project 1](./Project%2001/output.png)
+### [Project 2](Project%2002)
 
-- you are not allowed to change the HTML file, You have to fix the CSS file.
-
+### [Project 3](Project%2003)
 ---
+## Clone Projects 
 
-## Project 2
-
-### Output
-
-![Project 1](./Project%2002/output.png)
-
-- you are not allowed to change the HTML file, You have to fix the CSS file.
-
----
-
-## Project 3
-
-### Output
-
-![Project 1](./Project%2003/output.png)
-
-- you are not allowed to change the HTML file, You have to fix the CSS file.
+### [Vs Code Clone](vs-code-clone)
