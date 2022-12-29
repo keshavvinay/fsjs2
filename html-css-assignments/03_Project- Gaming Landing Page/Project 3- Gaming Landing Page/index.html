@@ -7,8 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <div class="flex px-32 items-center py-10 relative z-10">
+    <header class="bg-[url('./Assets/Photos/futuristic-bg.png')] h-screen bg-cover bg-center">
+        <div class="flex px-32 items-center py-10 h-32">
             <img src="./Assets/Icons/Logo.svg" alt="">
             <nav class="flex-1 pl-32 text-white">
                 <ul class="">
@@ -27,12 +27,39 @@
                 </button>
             </div>
         </div>
+        <div class="px-32 h-[calc(100vh-128px)] overflow-auto flex">
+            <div class="text-white w-1/2 pt-32">
+                <h2 class="text-white text-5xl font-bold leading-normal">Play Game Everytime
+                    Always Be Winner
+                    And Strong</h2>
+                <p class="text-[#AFAEAE] pt-10 pr-16">Improve your gaming skills by playing games that are currently popular so that you don't go out of style improve skills</p>
+                <div class="pt-10">
+                    <button class="bg-[#E37155] border border-[#E37155] text-white px-6 py-3">
+                        Get Started
+                    </button>
+                    <button class="border px-6 py-3 ml-6">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center ml-auto">
+                <img class="w-fit mx-auto" src="./Assets/Icons/playButton.svg" alt="">
+                <div class="mt-40">
+                    <img src="" alt="">
+                    <div class="flex text-white justify-center">
+                        <img class="mb-auto pt-2 pr-4" src="./Assets/Icons/dash.svg" alt="">
+                        <p class="w-2/5 text-xl">
+                            The King Of Terania And Last Seasion XXIV
+                        </p>
+                        <img class="mt-auto pl-4" src="./Assets/Icons/nextArrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <section>
-            <div>
-                <img class="absolute top-0" src="./Assets/Photos/futuristic-bg.png" alt="">
-            </div>
         </section>
     </main>
     <footer></footer>
