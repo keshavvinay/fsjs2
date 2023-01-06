@@ -10,7 +10,7 @@
     <header class="bg-[url('./Assets/Photos/futuristic-bg.png')] h-screen bg-cover bg-center">
         <div class="flex px-32 items-center py-10 h-32">
             <img src="./Assets/Icons/Logo.svg" alt="">
-            <nav class="flex-1 pl-32 text-white">
+            <nav aria-label="primary" class="flex-1 pl-32 text-white">
                 <ul class="">
                     <li class="inline-block pr-10">Home</li>
                     <li class="inline-block pr-10">Categories</li>
@@ -139,7 +139,7 @@
                 </li>
             </ul>
         </section>
-        <section class="w-[1182px] mx-auto pb-10">
+        <section class="px-32 pb-10">
             <div class="flex gap-20">
                 <div class="flex-1">
                     <img class="h-full object-cover" src="./Assets/Photos/Rectangle 57.png" alt="">
@@ -157,7 +157,7 @@
             </div>
         </section>
         <section>
-            <div class="container mx-auto w-[1182px] py-20">
+            <div class="container px-32 py-20">
                 <div class="flex justify-between items-center">
                     <h2 class="text-4xl font-bold w-1/3 leading-normal">Game Recommend For
                         You This Week</h2>
@@ -219,10 +219,86 @@
                         </li>
                     </ul>
                 </div>
-            
+            </div>
+        </section>
+        <section class="bg-black relative">
+            <div class="py-10 px-32 mx-auto">
+                <h2 class="text-4xl font-bold text-white text-center w-1/3 leading-normal mx-auto">
+                    Most Played Games Of The Year
+                </h2>
+                <div class="mt-8 grid grid-flow-row grid-rows-2 grid-cols-3 gap-16">
+                        <img class="row-start-1 row-span-2" src="./Assets/Photos/Rectangle 17.png" alt="">
+                        <p class="row-start-1 col-start-2 text-[#848484] col-span-2 mt-10 w-4/5">
+                            We have data on the most played games this year and as a result, games about battles and wars are very popular with gamers at this time, so we recommend this game into your cart to be used as your game.
+                        </p>
+                        <img class="row-start-1 row-span-2 col-start-2 self-end" src="./Assets/Photos/Rectangle 18.png" alt="">
+                        <img class="col-start-3" src="./Assets/Photos/Rectangle 90.png" alt="">
+                        
+                        <img class="absolute top-1/3 right-0" src="./Assets/Icons/GAMES OF THE WORLD.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bg-black">
+            <div class="px-32 relative">
+                <img class="" src="./Assets/Photos/Rectangle 606.png" alt="">
+                <div class="absolute top-1/2 left-1/2 -translate-y-2/4 -translate-x-2/4">
+                    <h2 class="w-3/4 text-4xl font-bold text-white text-center mx-auto">Have an Unforgettable Experience</h2>
+                    <p class="py-10 w-3/4 mx-auto text-[#848484] text-center">Have an unforgettable experience and play now to get attractive promos</p>
+                    <div class="text-center">
+                        <button class="bg-[#E37155] text-white px-6 py-3 text-center">Get Started</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="bg-black">
+        <section class="px-32 py-20 grid grid-flow-col grid-cols-[300px_auto]">
+            <div class="">
+                <img src="./Assets/Icons/Logo.svg" alt="">
+                <p class="text-[#848484] py-4 w-3/4">
+                    Play lots of games here and subscribe right away
+                </p>
+                <ul class="flex gap-4">
+                    <li><a aria-label="facebook" href="#"></a><img src="./Assets/Icons/facebook.svg" alt=""></li>
+                    <li><a aria-label="instagram" href="#"><img src="./Assets/Icons/instagram.svg" alt=""></a></li>
+                    <li><a aria-label="twitter" href="#"><img src="./Assets/Icons/twitter.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="">
+                <h4 class="text-white font-semibold">Articles</h4>
+                <ul class="text-[#848484]">
+                    <li class="pt-4">Crowfunding</li>
+                    <li class="pt-4">Website donations</li>
+                    <li class="pt-4">Carreers</li>
+                    <li class="pt-4">Event registrations</li>
+                    <li class="pt-4">Newsrooms</li>
+                </ul>
+            </div>
+            <div class="">
+                <h4 class="text-white font-semibold">Leagues</h4>
+                <ul class="text-[#848484]">
+                    <li class="pt-4">Our story</li>
+                    <li class="pt-4">Comunity driven</li>
+                    <li class="pt-4">Our custemer</li>
+                    <li class="pt-4">Expert support</li>
+                </ul>
+            </div>
+            <div class="">
+                <h4 class="text-white font-semibold">Team</h4>
+                <ul class="text-[#848484]">
+                    <li class="pt-4">About us</li>
+                    <li class="pt-4">FAQ</li>
+                    <li class="pt-4">Privacy & Policy</li>
+                    <li class="pt-4">Help</li>
+                </ul>
+            </div>
+            <div class="">
+                <h4 class="text-white font-semibold">Get in Touch</h4>
+                <ul class="text-[#848484]">
+                    <li class="pt-4">(704) 555-0127</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
