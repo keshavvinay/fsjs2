@@ -1,0 +1,29 @@
+:root{
+    --clr-primary-900: #000000;
+    --clr-primary-100: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-color: var(--clr-primary-900);
+    height: 100vh;
+}
+
+.bubble{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--clr-primary-100);
+    transform: translate(-50%, -50%);
+    transition: transform 330ms ease-in-out;
+}
+
+.bulk{
+    transform: scale(3);
+}

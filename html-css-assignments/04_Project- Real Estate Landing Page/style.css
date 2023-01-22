@@ -113,6 +113,10 @@ svg {
     color: var(--clr-accent);
 }
 
+.fs-primary-heading{
+    font-size: var(--fs-primary-heading);
+}
+
 a{
     all: unset;
 }
