@@ -6,7 +6,7 @@
 
 
 ### **After Update**
-![Task 1](<./firstAssignmentImage/task1Output.png>)
+![Task 1](./firstAssignmentImage/task1Output.png)
 
 ### **Project Solution**
 
