@@ -6,8 +6,12 @@ In the navigation menu rename the "contacts" to "projects". And the user has to 
 
 
 ### **After Update**
+<p>
 <br>
-<img src='firstAssignmentImage/task1Output.png' alt='task 1'>
+
+<img src='firstAssignmentImage/task1Output.png' alt='task 1' width="420" height="240" >
+</p>
+
 
 ### **Project Solution**
 
