@@ -2,11 +2,11 @@
 # **DOM Assigment 1**
 ## **Task 1**
 
-    In the navigation menu rename the "contacts" to "projects". And the user has to append a new element in the navigation menu named "Hire Me" after the "Projects"
+In the navigation menu rename the "contacts" to "projects". And the user has to append a new element in the navigation menu named "Hire Me" after the "Projects"
 
 
 ### **After Update**
-![Task 1](./firstAssignmentImage/task1Output.png)
+![Task 1](firstAssignmentImage/task1Output.png)
 
 ### **Project Solution**
 
