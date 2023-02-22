@@ -6,7 +6,7 @@
 
 
 ### **After Update**
-![Task 1](firstAssignmentImage/task1Output.png)
+![Task 1](https://github.com/keshavvinay/fsjs2/blob/main/DOM-Assignments/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task1Output.png)
 
 ### **Project Solution**
 
