@@ -6,11 +6,8 @@ In the navigation menu rename the "contacts" to "projects". And the user has to 
 
 
 ### **After Update**
-<p>
-<br>
 
-<img src='firstAssignmentImage/task1Output.png' alt='task 1' width="420" height="240" >
-</p>
+![Task 1](<./firstAssignmentImage/task1Output.png>)
 
 
 ### **Project Solution**
@@ -25,7 +22,7 @@ document.querySelector('nav ul').append(li);
 ---
 ## **Task 2**
 
-    The user needs to change the placeholder message to "Search My Project" from "Search".
+The user needs to change the placeholder message to "Search My Project" from "Search".
 
 ### **After Update**
 
@@ -39,7 +36,7 @@ document.querySelector('.search-field input').setAttribute('placeholder', 'Searc
 ---
 ## **Task 3**
 
-    The user has to change the "a Freelancer" to "an Employee" and "National and International Client" to "iNeuron Intelligence Pvt Ltd".
+The user has to change the "a Freelancer" to "an Employee" and "National and International Client" to "iNeuron Intelligence Pvt Ltd".
 
 ### **After Update**
 ![Task 3](<./firstAssignmentImage/task3Output.png>)
@@ -54,7 +51,7 @@ span[2].innerText = "iNeuron Intelligence Pvt Ltd.";
 ---
 ## **Task 4**
 
-    The user needs to change the "Avatar" image with the image of "Hitesh Sir". You can use any of the online available images of Hitesh sir from the internet. 
+The user needs to change the "Avatar" image with the image of "Hitesh Sir". You can use any of the online available images of Hitesh sir from the internet. 
 
 ### **After Update**
 ![Task 4](<./firstAssignmentImage/task4Output.png>)
@@ -67,7 +64,7 @@ document.querySelector('.hero-right-section img').setAttribute('src', 'https://h
 ---
 ## **Task 5**
 
-    The user has to create one more button named "Support Me" and needs to add it next to the "Chat With Me" button below the avatar.
+The user has to create one more button named "Support Me" and needs to add it next to the "Chat With Me" button below the avatar.
 
 ### **After Update**
 ![Task 5](<./firstAssignmentImage/task5Output.png>)
