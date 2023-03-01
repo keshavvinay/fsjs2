@@ -1,19 +1,23 @@
-.container{
+.container {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-button, input{
+button,
+input {
   outline-style: none;
 }
 
-ul{
+ul {
   list-style: none;
+}
+.add-button {
+  margin-top: 12px !important;
 }
